@@ -1,0 +1,5 @@
+1. Python  - syntaxes if, else, print
+2. Fiel processing 
+3. Regular expression
+4. replace and perform data cleaning
+5. Cybersecurorty for embedded systm

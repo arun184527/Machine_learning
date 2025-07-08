@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void) 
+{
+    int A, B, C;
+    printf("Enter the number A = "); //value of A
+    scanf("%d", &A);
+    printf("Enter the number B = "); //value of B
+    scanf("%d", &B);
+    printf("Enter the number C = "); //value of C
+    scanf("%d", &C);
+    int max = A;      // max = A
+    if (B > max)      // if B is largest then A
+        max = B;      // max = B
+    if (C > max)      // if C is largest then max
+        max = C;      // max = C
+    printf("The largest number is %d\n", max);
+    return 0;
+}
